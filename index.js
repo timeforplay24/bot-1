@@ -102,11 +102,14 @@ bot.on('chat', (username, message) => {
     const player = bot.players[username]
 
     if (!player) {
-    bot.chat('I will!')
-    guardArea(player.entity.position)
+      bot.chat("I cant see you!")
+      return
     }
 
+    bot.chat('I will!')
+    guardArea(player.entity.position)
   }
+
   if (message === 'stop') {
     bot.chat('I will stop!')
     stopGuarding()
@@ -120,6 +123,5 @@ bot.on('end', createBot)
 
 createBot()
 
-//// Rembember to sucribe to my channels!
+//// Rembember to sucribe to my channel!
 /// www.youtube.com/c/JinMoriYT
-///www.youtube.com/channel/UC1SR0lQSDfdaSMhmUiaMitg
