@@ -43,9 +43,12 @@ Tienes más info aquí: https://geysermc.org/
 - ¿Se puede con mods? Sí, aunque lamentablemente solo hasta la 1.12.2, ya que no hay protocolos de esto.
 https://www.youtube.com/watch?v=KIdtF3FVS48
 
-
+¿Cómo lo mantengo 24/7?
+Esto lo explico en el último video, para ello puedes usar un uptimer robot, y agregar el link de la parte superior derecha que se genera en repl.it, y agregarlo al monitoreo.
+Solíamos tener nuestros propios bots de uptime, pero la gente no respetaba las normas y estos bots terminaban sobrecargados.
 
 Iremos actualizando esta guía!
 
 ## Últimos parches
 - Error del guard solucionado.
+- Estamos investigando nuevos tipos de bots y posibles soluciones a otros errores.
